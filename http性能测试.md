@@ -522,3 +522,6 @@ LISTEN         0              511                             [::]:8000         
 
 ### 监控SYN_RECV状态的连接数（可能表示SYN Flood攻击或网络阻塞）
 > watch "netstat -ant | grep SYN_RECV | wc -l"
+
+
+[TCP 100 万长连接的参数调优](https://dbwu.tech/posts/network/how-to-optimize-tcp-performance/)
